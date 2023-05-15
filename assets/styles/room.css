@@ -1,0 +1,36 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: darkslateblue;
+    height: 100%;
+}
+
+#upload {
+    display: none;
+}
+
+#btnUpload {
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    background-color: teal;
+    color: aliceblue;
+    font-size: 1.2em;
+    border: 0;
+    border-radius: 10px;
+    padding: .5em .5em;
+}
+
+.song {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+img {
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+}

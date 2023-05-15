@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicRoom</title>
+    <link rel="stylesheet" href="/assets/styles/room.css">
+</head>
+<body>
+    <div id="song-panel"></div>
+
+    <input id="upload" type="file" accept="audio/*" onchange="uploadSongs()" name="upload" multiple/>
+    <button id="btnUpload" onclick="uploadInput.click()">Upload song</button>
+
+    <script>const roomId = "<%= room %>";</script>
+    <script src="/assets/scripts/io.js"></script>
+    <script src="/assets/scripts/room.js"></script>
+</body>
+</html>
